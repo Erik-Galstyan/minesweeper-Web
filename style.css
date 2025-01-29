@@ -48,9 +48,10 @@ body {
 
 .complaxity-div {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 2rem;
   width: 250px;
   height: 200px;
   border-radius: 50px;
@@ -61,12 +62,11 @@ body {
 
 .complaxity-div:active {
   transform: scale(0.8);
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5); 
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .easy {
   background-color: rgb(112, 235, 112);
-
 }
 
 .normal {
@@ -91,7 +91,7 @@ body {
 
 .play-button:active {
   transform: scale(0.8);
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5); 
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 a {
