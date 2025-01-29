@@ -26,7 +26,7 @@ if (body.className == "easy") {
 }
 
 let loseAndWinFlag = false;
-let game = new Minesweeper(n, m, 50, complaxity);
+let game = new Minesweeper(n, m, bombs, complaxity);
 game.createBoard();
 game.fillTheBombs();
 game.fillTheNumOfBombsForEachField();
