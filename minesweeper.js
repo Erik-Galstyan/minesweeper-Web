@@ -257,14 +257,14 @@ export default class Minesweeper {
             elm.style.fontSize = this.fontSize;
             elm.style.fontWeight = 700;
           } else if (this.board[i][j] == "7") {
-            elm.style.backgroundColor = "rgb(0, 11, 29)";
+            elm.style.backgroundColor = "rgb(65, 11, 29)";
             elm.style.display = "flex";
             elm.style.justifyContent = "center";
             elm.style.alignItems = "center";
             elm.style.fontSize = this.fontSize;
             elm.style.fontWeight = 700;
           } else if (this.board[i][j] == "8") {
-            elm.style.backgroundColor = "rgb(24, 0, 29)";
+            elm.style.backgroundColor = "rgb(65, 11, 69)";
             elm.style.display = "flex";
             elm.style.justifyContent = "center";
             elm.style.alignItems = "center";
@@ -325,14 +325,14 @@ export default class Minesweeper {
               elm.style.fontSize = this.fontSize;
               elm.style.fontWeight = 700;
             } else if (this.board[i + 1][j + 1] == "7") {
-              elm.style.backgroundColor = "rgb(0, 11, 29)";
+              elm.style.backgroundColor = "rgb(65, 11, 29)";
               elm.style.display = "flex";
               elm.style.justifyContent = "center";
               elm.style.alignItems = "center";
               elm.style.fontSize = this.fontSize;
               elm.style.fontWeight = 700;
             } else if (this.board[i + 1][j + 1] == "8") {
-              elm.style.backgroundColor = "rgb(24, 0, 29)";
+              elm.style.backgroundColor = "rgb(65, 11, 69)";
               elm.style.display = "flex";
               elm.style.justifyContent = "center";
               elm.style.alignItems = "center";
@@ -392,14 +392,14 @@ export default class Minesweeper {
               elm.style.fontSize = this.fontSize;
               elm.style.fontWeight = 700;
             } else if (this.board[i - 1][j - 1] == "7") {
-              elm.style.backgroundColor = "rgb(0, 11, 29)";
+              elm.style.backgroundColor = "rgb(65, 11, 29)";
               elm.style.display = "flex";
               elm.style.justifyContent = "center";
               elm.style.alignItems = "center";
               elm.style.fontSize = this.fontSize;
               elm.style.fontWeight = 700;
             } else if (this.board[i - 1][j - 1] == "8") {
-              elm.style.backgroundColor = "rgb(24, 0, 29)";
+              elm.style.backgroundColor = "rgb(65, 11, 69)";
               elm.style.display = "flex";
               elm.style.justifyContent = "center";
               elm.style.alignItems = "center";
@@ -459,14 +459,14 @@ export default class Minesweeper {
               elm.style.fontSize = this.fontSize;
               elm.style.fontWeight = 700;
             } else if (this.board[i - 1][j + 1] == "7") {
-              elm.style.backgroundColor = "rgb(0, 11, 29)";
+              elm.style.backgroundColor = "rgb(65, 11, 29)";
               elm.style.display = "flex";
               elm.style.justifyContent = "center";
               elm.style.alignItems = "center";
               elm.style.fontSize = this.fontSize;
               elm.style.fontWeight = 700;
             } else if (this.board[i - 1][j + 1] == "8") {
-              elm.style.backgroundColor = "rgb(24, 0, 29)";
+              elm.style.backgroundColor = "rgb(65, 11, 69)";
               elm.style.display = "flex";
               elm.style.justifyContent = "center";
               elm.style.alignItems = "center";
@@ -526,14 +526,14 @@ export default class Minesweeper {
               elm.style.fontSize = this.fontSize;
               elm.style.fontWeight = 700;
             } else if (this.board[i + 1][j - 1] == "7") {
-              elm.style.backgroundColor = "rgb(0, 11, 29)";
+              elm.style.backgroundColor = "rgb(65, 11, 29)";
               elm.style.display = "flex";
               elm.style.justifyContent = "center";
               elm.style.alignItems = "center";
               elm.style.fontSize = this.fontSize;
               elm.style.fontWeight = 700;
             } else if (this.board[i + 1][j - 1] == "8") {
-              elm.style.backgroundColor = "rgb(24, 0, 29)";
+              elm.style.backgroundColor = "rgb(65, 11, 69)";
               elm.style.display = "flex";
               elm.style.justifyContent = "center";
               elm.style.alignItems = "center";

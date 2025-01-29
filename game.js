@@ -26,11 +26,11 @@ if (body.className == "easy") {
 }
 
 let loseAndWinFlag = false;
-let game = new Minesweeper(n, m, bombs, complaxity);
+let game = new Minesweeper(n, m, 50, complaxity);
 game.createBoard();
 game.fillTheBombs();
 game.fillTheNumOfBombsForEachField();
-// game.printBoard(); print on console browser border
+game.printBoard(); /*print on console browser border*/
 
 let allFields = document.querySelectorAll(".every-square");
 
@@ -126,14 +126,14 @@ allFields.forEach((elm) => {
         elm.style.fontSize = game.fontSize;
         elm.style.fontWeight = 700;
       } else if (game.board[i][j] == "7") {
-        elm.style.backgroundColor = "rgb(0, 11, 29)";
+        elm.style.backgroundColor = "rgb(65, 11, 29)";
         elm.style.display = "flex";
         elm.style.justifyContent = "center";
         elm.style.alignItems = "center";
         elm.style.fontSize = game.fontSize;
         elm.style.fontWeight = 700;
       } else if (game.board[i][j] == "8") {
-        elm.style.backgroundColor = "rgb(24, 0, 29)";
+        elm.style.backgroundColor = "rgb(65, 11, 69)";
         elm.style.display = "flex";
         elm.style.justifyContent = "center";
         elm.style.alignItems = "center";
